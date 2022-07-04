@@ -39,8 +39,9 @@ button {
 }
 .outline-btn {
   border: 2px solid #000;
-  padding: 14px 40px;
+  padding: 10px 20px;
   font-family: Vazirmatn, sans-serif;
+  font-size: 14px;
 }
 .row {
   width: 50%;
@@ -67,6 +68,10 @@ header .logo {
   margin-top: auto;
 }
 
+header .logo img {
+  height: 60px;
+}
+
 header .logo h2 {
   padding-left: 30px;
 }
@@ -77,4 +82,53 @@ header .logo h2 {
   justify-content: space-between;
 }
 /*-----------Header-------------*/
+/*-----------ImageSlider-------------*/
+.slider {
+  position: relative;
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 1000px;
+  height: 550px;
+  border-radius: 10px;
+}
+
+.right-arrow {
+  position: absolute;
+  top: 50%;
+  right: 32px;
+  font-size: 3rem;
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.left-arrow {
+  position: absolute;
+  top: 50%;
+  left: 32px;
+  font-size: 3rem;
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.slide {
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.slide.active {
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.08);
+}
+
+/*-----------ImageSlider-------------*/
 

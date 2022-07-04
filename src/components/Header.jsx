@@ -5,7 +5,7 @@ const Header = () => {
     <header className='headerContainer flexSB'>
 
         <div className='logo flexSB'>
-          <img src='./images/logo.png' alt='' />
+          <img src='./images/logo.png' alt='/' />
           <h2>کاغذسازی مهرآیین پارس</h2>
         </div>
 
