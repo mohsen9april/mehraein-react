@@ -85,7 +85,7 @@ header .logo h2 {
 /*-----------ImageSlider-------------*/
 .slider {
   position: relative;
-  height: 85vh;
+  height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -93,7 +93,7 @@ header .logo h2 {
 
 .image {
   width: 1000px;
-  height: 550px;
+  height: 500px;
   border-radius: 10px;
 }
 
@@ -131,4 +131,34 @@ header .logo h2 {
 }
 
 /*-----------ImageSlider-------------*/
+/*-----------Products-------------*/
+.Products {
+  text-align: center;
+  font-size: 3.5rem;
+}
+
+.flexSBP {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.row {
+  /* background-color: rgb(245, 245, 194); */
+  padding: 15px 15px 15px 15px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0px 7px 2px -3px rgba(89, 89, 89, 0.02);
+  
+}
+.row p {
+  font-size: 12px;
+  text-align: right;
+}
+
+.row img {
+  height: 200px;
+}
+/*-----------Products-------------*/
 
