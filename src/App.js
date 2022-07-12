@@ -1,8 +1,9 @@
 import React from 'react'
 import './App.css';
-import Header from './components/Header'
-import ImageSlider from './components/ImageSlider';
-import Products from './components/Products';
+import Header from './components/Header/Header'
+import ImageSlider from './components/ImageSlider/ImageSlider';
+import Products from './components/Products/Products';
+
 
 
 const App = () => {
@@ -11,7 +12,7 @@ const App = () => {
       <Header/>
       <ImageSlider/>
       <Products/>
-    </>
+      </>
   )
 }
 

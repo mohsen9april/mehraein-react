@@ -47,118 +47,16 @@ button {
   width: 50%;
 }
 /*-----------GLOBAL-------------*/
-/*-----------Header-------------*/
-header {
-  height: 10vh;
-  line-height: 10vh;
-  background-color: #fff;
-  box-shadow: 0px 7px 2px -3px rgba(89, 89, 89, 0.02);
+
+::-webkit-scrollbar{
+  display: none;
 }
 
-header a {
-  /* color: #767676; */
-  color: #000;
-  margin: 0 20px;
-  font-size: 18px;
-  font-weight: 500;
-}
 
-header .logo {
-  margin-left: 5px;
-  margin-top: auto;
+.stroke-text {
+  color: transparent;
+  font-family: Vazirmatn, sans-serif;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  font-weight: bold;
 }
-
-header .logo img {
-  height: 60px;
-}
-
-header .logo h2 {
-  padding-left: 30px;
-}
-
-.nav_menu {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-/*-----------Header-------------*/
-/*-----------ImageSlider-------------*/
-.slider {
-  position: relative;
-  height: 80vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.image {
-  width: 1000px;
-  height: 500px;
-  border-radius: 10px;
-}
-
-.right-arrow {
-  position: absolute;
-  top: 50%;
-  right: 32px;
-  font-size: 3rem;
-  color: #000;
-  z-index: 10;
-  cursor: pointer;
-  user-select: none;
-}
-
-.left-arrow {
-  position: absolute;
-  top: 50%;
-  left: 32px;
-  font-size: 3rem;
-  color: #000;
-  z-index: 10;
-  cursor: pointer;
-  user-select: none;
-}
-
-.slide {
-  opacity: 0;
-  transition-duration: 1s ease;
-}
-
-.slide.active {
-  opacity: 1;
-  transition-duration: 1s;
-  transform: scale(1.08);
-}
-
-/*-----------ImageSlider-------------*/
-/*-----------Products-------------*/
-.Products {
-  text-align: center;
-  font-size: 3.5rem;
-}
-
-.flexSBP {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px;
-}
-
-.row {
-  /* background-color: rgb(245, 245, 194); */
-  padding: 15px 15px 15px 15px;
-  text-align: center;
-  background-color: #fff;
-  box-shadow: 0px 7px 2px -3px rgba(89, 89, 89, 0.02);
-  
-}
-.row p {
-  font-size: 12px;
-  text-align: right;
-}
-
-.row img {
-  height: 200px;
-}
-/*-----------Products-------------*/
-
