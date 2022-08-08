@@ -10,7 +10,7 @@ header {
   header a {
     /* color: #767676; */
     color: #000;
-    margin: 0 20px;
+    margin: 0 12px;
     font-size: 18px;
     font-weight: 500;
   }
@@ -32,5 +32,19 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+  }
+
+  button {
+    background: none;
+    border: none;
+    overflow: none;
+    font-weight: bold;
+  }
+  .outline-btn-header {
+    border: 2px solid #000;
+    border-radius: 0.8rem;
+    padding: 10px 20px;
+    font-family: Vazirmatn, sans-serif;
+    font-size: 12px;
   }
   /*-----------Header-------------*/

@@ -9,15 +9,15 @@ const ImageSlider = () => {
     const SliderData = [
         {
           image:
-            'https://images.unsplash.com/photo-1656956628671-0808608f7e38?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80'
+            'https://images.unsplash.com/photo-1659725220034-78194d568d03?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1742&q=80'
         },
         {
           image:
-            'https://images.unsplash.com/photo-1656956698070-888f0bb0616b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80'
+            'https://images.unsplash.com/photo-1531973576160-7125cd663d86?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80'
         },
         {
           image:
-            'https://images.unsplash.com/photo-1656956945948-ae390ecb8a39?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80'
+            'https://images.unsplash.com/photo-1638137731128-07b495f1bcb1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1742&q=80'
         },
       ];
       
@@ -36,7 +36,6 @@ const ImageSlider = () => {
           return null;
         }
 
-        
   return (
     <section className='slider'>
       <FaArrowAltCircleLeft className='left-arrow' onClick={prevSlide} />
@@ -45,7 +44,7 @@ const ImageSlider = () => {
         // return <img src={slide.image} alt='/' />
         return (
             <div className={index === current ? 'slide active' : 'slide'} key={index} >
-              {index === current && (<img src={slide.image} alt='travel image' className='image' />)}
+              {index === current && (<img src={slide.image} alt='travel_image' className='image' />)}
             </div>
           );
 

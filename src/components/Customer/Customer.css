@@ -1,0 +1,19 @@
+
+.Customer-header {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.Customer-container {
+    display: flex;
+    width: 95%;
+    overflow-x: auto;
+    align-items: center;
+    margin: auto;
+}
+
+.Customer-container img {
+    padding: 30px;
+    height: 250px;
+    width: 300px;
+}
