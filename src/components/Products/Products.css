@@ -62,7 +62,9 @@
     position: absolute;
     top: 1rem;
     left: 1rem;
-    background-color: #e1ad21;
+    /* background-color: #e1ad21; */
+    /* background-color: #e0ac1c; */
+    background-color: #2d2a30;
     color: #fff;
     font-size: 1rem;
     padding: .5rem 1rem;
